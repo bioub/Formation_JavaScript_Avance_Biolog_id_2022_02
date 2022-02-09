@@ -21,7 +21,7 @@ function jouer() {
 
     const entierSaisi = parseInt(answer, 10);
 
-    if (isNaN(entierAlea)) {
+    if (isNaN(entierSaisi)) {
       console.log(`Error : ${answer} is not a number`)
       return jouer();
     }
