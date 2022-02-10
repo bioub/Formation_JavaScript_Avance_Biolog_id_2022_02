@@ -1,0 +1,12 @@
+<h1>My Todos</h1>
+<form class="todo-form" (submit)="addTodo()">
+  <input class="todo-text-input" name="inputValue" [(ngModel)]="inputValue" />
+  <button>+</button>
+</form>
+<div class="todo-container">
+  <div *ngFor="let todo of todos">
+    <input type="checkbox" [checked]="todo.completed" />
+    <span>{{ todo.title }}</span>
+    <button>-</button>
+  </div>
+</div>

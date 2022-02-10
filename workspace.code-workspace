@@ -8,6 +8,9 @@
 		},
 		{
 			"path": "Serveur"
+		},
+		{
+			"path": "hello-angular"
 		}
 	],
 	"settings": {}
