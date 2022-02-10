@@ -5,6 +5,9 @@
 		},
 		{
 			"path": "Todos"
+		},
+		{
+			"path": "Serveur"
 		}
 	],
 	"settings": {}

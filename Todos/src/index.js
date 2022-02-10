@@ -22,6 +22,7 @@ formEl.addEventListener('submit', (event) => {
   containerEl.prepend(todoRowEl);
 });
 
+// Callback Hell / Pyramid of doom
 // fetch('https://jsonplaceholder.typicode.com/todos')
 //   .then((res) => {
 //     res.json()
@@ -33,6 +34,17 @@ formEl.addEventListener('submit', (event) => {
 //   })
 //   .catch((err) => {
 //   })
+
+// fetch('https://jsonplaceholder.typicode.com/todos')
+//   .then((res) => {
+//     return res.json()
+//   })
+//   .then((todos) => {
+//     console.log(todos);
+//   })
+//   .catch((err) => {
+//   })
+
 
 fetchTodos()
   .then((todos) => {

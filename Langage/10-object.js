@@ -59,7 +59,7 @@ const coords2 = {
 };
 
 const MyMath = {
-  sum: function (a, b) {
+  sum(a, b) {
     return a + b;
   },
 };
@@ -121,7 +121,7 @@ const key = 'x';
 console[method](coordsA[key]);
 
 // for (const key in coordsA) {
-//   if (Object.hasOwnProperty.call(coordsA, key)) {
+//   if (Object.prototype.hasOwnProperty.call(coordsA, key)) {
 //     const value = coordsA[key];
 
 //   }
